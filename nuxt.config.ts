@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     'nuxt-marquee',
+    '@nuxt/ui',
   ],
 
   vite: {
@@ -18,4 +19,14 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+
+  icon: {
+    customCollections: [
+      {
+        prefix: 'icon',
+        dir: './app/assets/icons'
+      },
+    ],
+  },
+
 })

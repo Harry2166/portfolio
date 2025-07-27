@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
 
 :root {
   --bg-dark: oklch(0.1 0.1 249);

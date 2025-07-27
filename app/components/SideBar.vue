@@ -6,6 +6,6 @@
       <ContactButton class="scale-125"/>
     </div>
 
-    <ChangeThemeButton class="mb-6 scale-125" />
   </div>
 </template>
+<ChangeThemeButton class="mb-6 scale-125" />
