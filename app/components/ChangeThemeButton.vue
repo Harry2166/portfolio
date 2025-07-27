@@ -1,12 +1,18 @@
 <script setup>
-const toggleTheme = () => {
-  document.body.classList.toggle('light')
-}
+  import { ref } from 'vue'
+  const colorMode = ref(false) // true -> light mode, false -> dark mode
+  const toggleTheme = () => {
+    colorMode.value = !colorMode.value
+    document.body.classList.toggle('light', colorMode.value)
+  }
 </script>
 
 <template>
-  <div class="px-5 py-5">
-    <button @click="toggleTheme" class="p-2 border theme-button">Toggle Theme</button>
+  <div class="px-5">
+    <button @click="toggleTheme" class="p-2 border theme-button">
+      <Icon v-if="!colorMode" name="mdi:white-balance-sunny" class="scale-110"/>
+      <Icon v-else name="material-symbols:dark-mode" class="scale-110"/>
+    </button>
   </div>
 </template>
 
@@ -18,6 +24,6 @@ const toggleTheme = () => {
 }
 
 .theme-button:hover {
-  background-color: var(--bg-light);
+  background-color: var(--bg-dark);
 }
 </style>
