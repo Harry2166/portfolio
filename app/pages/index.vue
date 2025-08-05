@@ -14,15 +14,15 @@
         <h2 v-else class="text-3xl lg:text-6xl md:text-5xl py-5">{{ slide.title }}</h2>
         <p class="text-xl lg:text-3xl md:text-2xl py-5">{{ slide.subtitle }}</p>
         <div v-if="slide.final_slide" class="flex flex-row items-center px-5">
-          <Icon name="icon:python" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:typescript" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:vue" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:svelte" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:tailwind" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:django" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:fastapi" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:godot" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
-          <Icon name="icon:unity" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10" />
+          <Icon name="icon:python" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:typescript" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:vue" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:svelte" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:tailwind" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:django" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:fastapi" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:godot" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
+          <Icon name="icon:unity" class="px-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl sm:px-7 md:px-8 lg:px-10 hover:scale-110" />
         </div>
       </div>
     </div>
