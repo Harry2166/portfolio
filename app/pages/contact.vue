@@ -3,7 +3,7 @@
     <div class="flex flex-col justify-center items-center h-screen">
       <h1 class="text-7xl py-5">Contact Me</h1>
       <USeparator class="w-48"/>
-      <p class="text-xl py-5">If you want to contact me, please use the following platforms!</p>
+      <p class="text-xl py-5">If you want to collaborate with me, please use the following platforms!</p>
       <div class="flex flex-row items-center mb-6">
         <a href="https://www.linkedin.com/in/prince-harry-quijano-305408356/" target="_blank">
           <Icon name="icon:linkedin" class="px-10" size="3em"/>
