@@ -6,13 +6,13 @@
       <p class="text-xl py-5">If you want to collaborate with me, please use the following platforms!</p>
       <div class="flex flex-row items-center mb-6">
         <a href="https://www.linkedin.com/in/prince-harry-quijano-305408356/" target="_blank">
-          <Icon name="icon:linkedin" class="px-10" size="3em"/>
+          <Icon name="icon:linkedin" class="px-10 hover:scale-110" size="3em"/>
         </a>
         <a href="https://github.com/Harry2166" target="_blank">
-         <Icon name="icon:github" class="px-10" size="3em"/>
+         <Icon name="icon:github-text" class="px-10 hover:scale-110" size="3em"/>
         </a>
         <a href="https://www.facebook.com/harryquijano2166" target="_blank">
-         <Icon name="icon:facebook" class="px-10" size="3em"/>
+         <Icon name="icon:facebook" class="px-10 hover:scale-110" size="3em"/>
         </a>
       </div>
       <USeparator class="w-48"/>
