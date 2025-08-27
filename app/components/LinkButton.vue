@@ -1,10 +1,17 @@
 <template>
   <div class="px-5 py-5">
-    <NuxtLink to="/contact" class="p-2 border theme-button">
-      <Icon name="material-symbols:contacts" class="scale-110"/>
+    <NuxtLink :to="link" class="p-2 border theme-button">
+      <Icon :name="icon" class="scale-110"/>
     </NuxtLink>
   </div>
 </template>
+
+<script setup lang="ts">
+  const props = defineProps({
+  link: String,
+  icon: String, 
+})
+</script>
 
 <style scoped>
 .theme-button {
