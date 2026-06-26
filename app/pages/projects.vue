@@ -4,7 +4,7 @@
 <template>
   <div>
     <div class="flex flex-col items-center h-screen">
-      <h1 class="text-7xl py-15">My Projects</h1>
+      <h1 class="text-7xl py-10">My Projects</h1>
       <div v-for="(project, index) in projectData" :key="index">
         <div class="group py-3 relative">
           <div v-if="index % 2 === 0" class="flex flex-row justify-center">
