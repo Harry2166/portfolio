@@ -22,6 +22,6 @@
   },
   {
     "title": "Spatial Web",
-    "summary": "The undergraduate thesis that aimed to prototype the proposed Spatial Web framework. ESP32 systems were leveraged to function as Bluetooth beacons to facilitate indoor communication that communicated with FastAPI backend servers that were deployed using DigitalOcean droplets."
+    "summary": "The undergraduate thesis that aimed to prototype the proposed Spatial Web framework. ESP32 systems were leveraged as Bluetooth beacons to facilitate indoor communication that communicated with FastAPI backend servers deployed on DigitalOcean droplets."
   }
 ]
