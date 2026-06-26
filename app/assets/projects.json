@@ -1,10 +1,27 @@
 [
   {
+    "title": "TypeKindly",
+    "desc": "Nov 2024 - May 2025",
+    "summary": "A project that analyzed the correlation between Facebook posts likes and online behavior for children. It uses a Android application and a Python script that scrapes the data of Facebook posts which passes it to XLM-RoberTa to perform sentiment analysis on the captions of the Facebook posts."
+  },
+  {
+    "title": "Rubik's Cube Timer",
+    "summary": "A Rubik's Cube timer built using Svelekit that leverages Supabase and Drizzle ORM and integrates with the CubingAPI to generate and display Rubik's Cube scrambles."
+  },
+  {
     "title": "Tabipo",
-    "desc": "TABI PO!!!!"
+    "summary": "An IoT project that was a smart stoplight system built on top of ESP32 systems that communicates with a Django server hosted on a DigitalOcean droplet via WebSockets that was created as the capstone project for CS145 - Computer Networks."
   },
   {
     "title": "Portfolio",
-    "desc": "PORTFOLIO!!!"
+    "summary": "The portfolio website for Prince Harry Quijano that was built using Nuxt."
+  },
+  {
+    "title": "DRAP: Draft Ranking Automated Processor",
+    "summary": "I served as the infrastructure head of the third deployment of this project that is used to facilitate the drafting of over 100+ students in the Department of Computer Science (DCS) in UP Diliman across its nine (9) laboratories."
+  },
+  {
+    "title": "Spatial Web",
+    "summary": "The undergraduate thesis that aimed to prototype the proposed Spatial Web framework. ESP32 systems were leveraged to function as Bluetooth beacons to facilitate indoor communication that communicated with FastAPI backend servers that were deployed using DigitalOcean droplets."
   }
 ]

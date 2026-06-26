@@ -15,6 +15,5 @@ defineProps({
 <template>
   <div class="w-full hover:scale-110 px-5 py-3" style="background-color: var(--bg-light);"> 
     <h1 class="flex flex-col items-center">{{title}}</h1>
-    <h2>{{desc}}</h2>
   </div>
 </template>
