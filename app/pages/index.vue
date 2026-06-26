@@ -34,8 +34,8 @@ import { ref, onMounted, onUnmounted, nextTick } from 'vue';
 
 const slides = ref([
   { title: "Hi I'm Harry.", subtitle: 'Fullstack Developer, Game Developer, Lifelong Learner.', centered: true, final_slide: false },
-  { title: "I am a Computer Science Enthusiast.", subtitle: 'I am currently pursuing a Computer Science degree.', centered: false, final_slide: false },
-  { title: "I specialize in backend development.", subtitle: 'I can dabble in some frontend though!', centered: false, final_slide: false },
+  { title: "I am a Computer Science Enthusiast.", subtitle: 'I graduated in the University of the Philippines Diliman taking BS Computer Science', centered: false, final_slide: false },
+  { title: "I specialize in backend development and DevOps.", subtitle: 'I can dabble in some frontend though!', centered: false, final_slide: false },
   { title: "I'm also an aspiring game developer.", subtitle: 'I got interested in Computer Science because of video games!', centered: false, final_slide: false },
   { title: "Here is my skillset:", subtitle: '', centered: false, final_slide: true },
 ]);
